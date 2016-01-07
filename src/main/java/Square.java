@@ -9,4 +9,8 @@ public class Square {
     public int getPerimeter() {
         return sideLength * 4;
     }
+
+    public int getArea() {
+        return sideLength * sideLength;
+    }
 }

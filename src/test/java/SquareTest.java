@@ -13,4 +13,12 @@ public class SquareTest {
         int perimeter = square.getPerimeter();
         assertEquals(8, perimeter);
     }
+
+    @Test
+    public void testGetAreaCalculatesAreaCorrectly() {
+        square = new Square(4);
+
+        int area = square.getArea();
+        assertEquals(16, area);
+    }
 }
