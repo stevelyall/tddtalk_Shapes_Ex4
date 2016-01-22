@@ -9,6 +9,6 @@ public class Sphere {
     }
 
     public double getArea() {
-        return 4 * Math.PI *Math.pow(radius, 2);
+        return 4 * Math.PI /Math.pow(radius, 2);
     }
 }
